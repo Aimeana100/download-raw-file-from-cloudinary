@@ -1,0 +1,30 @@
+{
+  "name": "downloadcompressedfile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.5.1",
+    "cloudinary": "^1.41.0",
+    "decompress": "^4.2.1",
+    "file-type": "^18.5.0",
+    "fs": "^0.0.1-security",
+    "istextorbinary": "^6.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.2",
+    "@types/decompress": "^4.2.5",
+    "@types/file-type": "^10.9.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
